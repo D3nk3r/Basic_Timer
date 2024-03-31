@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
             clearInterval(startTimer);
         }
     }
+    
 
     function StartTimer() {
         if (!timerRunning) {
