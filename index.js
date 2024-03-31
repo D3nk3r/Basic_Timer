@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
             clearInterval(startTimer);
         }
     }
-    
+
 
     function StartTimer() {
         if (!timerRunning) {
@@ -27,4 +27,5 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     setButton.addEventListener("click", StartTimer);
+    
 });
